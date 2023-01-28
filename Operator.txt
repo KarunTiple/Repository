@@ -1,0 +1,267 @@
+Operator: Operator is symbol which is used to perform operation accoding to user requirment.
+
+Types Of Operator:
+
+1)Arithmetic Operator(+,-,*,/,%)
+
+2)Relational Operator(>,<,>=,<=,==,!=)
+
+3)Increament/Decreament Operator
+   1)Increament Operator
+      i)pre Increament
+      ii)Post Increament
+ 
+   2)Decreament Operator
+       i)Pre Decreament
+       ii)Post Decreament
+
+4)Assignment Operator
+  i)Simle Assignemnt
+  ii)Compound Assignment
+
+5)Ternary Operator( ? :)
+6)Logical Operator( &&,||,!)
+7)Bitwise Operator(AND,OR,XOR,complement)
+ 
+
+1)Arithmetic Operator(+,-,*,/,%)
+
+Example ;
+
+package operatorTypes;
+
+public class ArithmeticOperator {
+
+	public static void main(String[] args) {
+
+		int a = 20;
+		int b = 10;
+
+		System.out.println("Addition of a and b is =" + (a + b));
+		System.out.println("Substraction of a and b is =" + (a - b));
+		System.out.println("Multiplication of a and b is = " + (a * b));
+		System.out.println("Division of a and b is =" + (a / b));
+		System.out.println("Mod of a and b is =" + (a % b));
+	}
+}
+
+
+Example no 2:
+
+
+package operatorTypes;
+
+import java.util.Scanner;
+
+public class ArithmeticOperator {
+
+	public static void main(String[] args) {
+
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter value of a");
+		 int a= sc.nextInt();
+		System.out.println("Enter value of B");
+		int b=sc.nextInt();
+		
+
+		System.out.println("Addition of a and b is =" + ( a + b));
+		System.out.println("Substraction of a and b is =" + (a - b));
+		System.out.println("Multiplication of a and b is = " + (a * b));
+		System.out.println("Division of a and b is =" + (a / b));
+		System.out.println("Mod of a and b is =" + (a % b));
+	}
+}
+
+
+
+
+2)Relational Operator(>,<,>=,<=,==,!=):
+
+Example :
+
+package operatorTypes;
+
+public class RelationalDemo {
+
+	public static void main(String[] args) {
+		
+		int a=10;
+		int b=20;
+		
+		System.out.println(a<b);
+		System.out.println(a>b);
+		System.out.println(a>=b);
+		System.out.println(a<=b);
+		System.out.println(a==b);
+		System.out.println(a!=b);
+	}
+}
+
+
+
+Example 2:
+
+
+package operatorTypes;
+
+import java.util.Scanner;
+
+public class RelationalDemo {
+
+	public static void main(String[] args) {
+		
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter value of a");
+		int a=sc.nextInt();
+		
+		System.out.println("Enter value of b");
+		int b=sc.nextInt();
+	
+		System.out.println(a<b);
+		System.out.println(a>b);
+		System.out.println(a>=b);
+		System.out.println(a<=b);
+		System.out.println(a==b);
+		System.out.println(a!=b);
+	}
+}
+
+
+
+
+
+3)Increament/Decreament Operator
+   1)Increament Operator
+      i)pre Increament(++a)
+
+Example :
+
+package incDecOperator;
+
+public class PreIncDemo {
+
+	public static void main(String[] args) {
+		
+		int a=10;
+		System.out.println(++a);
+	}
+}
+
+
+
+      ii)Post Increament(a++)
+
+Example :
+
+package incDecOperator;
+
+public class PostIncDemo {
+
+	public static void main(String[] args) {
+		
+		int a=10;
+		System.out.println(a++);
+		System.out.println(a);
+	}
+}
+
+
+
+ 
+   2)Decreament Operator
+       i)Pre Decreament(--a)
+
+Example :
+
+package incDecOperator;
+
+public class PreDecDemo {
+
+	public static void main(String[] args) {
+		
+	int a=10;
+	System.out.println(--a);
+		
+	}
+}
+
+
+
+       ii)Post Decreament(a--)
+
+Example :
+
+package incDecOperator;
+
+public class PostDecDemo {
+
+	public static void main(String[] args) {
+		
+		int a=10;
+		System.out.println(a--);
+		System.out.println(a);
+	}
+}
+
+
+
+
+Example :
+
+
+package incDecOperator;
+
+public class IncDecDemo {
+
+	public static void main(String[] args) {
+
+		int a = 10;
+
+		System.out.println(a++);
+		
+		System.out.println(a);
+
+		System.out.println(++a);
+		
+		System.out.println(a);
+
+		System.out.println(a--);
+		
+		System.out.println(a);
+
+		System.out.println(--a);
+
+	}
+}
+
+
+
+
+package incDecOperator;
+
+public class IncDecDemo {
+
+	public static void main(String[] args) {
+
+		float a = 10.1f;
+
+		System.out.println(a++);
+		
+		System.out.println(a);
+
+		System.out.println(++a);
+		
+		System.out.println(a);
+
+		System.out.println(a--);
+		
+		System.out.println(a);
+
+		System.out.println(--a);
+
+	}
+}
+
+
+
+
